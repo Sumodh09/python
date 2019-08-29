@@ -1,0 +1,20 @@
+ def info():
+	NAME = input("enter the name")
+	print("enter the age")
+	Age= input()
+	print(Name)
+	print(Age)
+	if(Age==95):
+		print("you are 95")
+	else:
+		print("no  95")
+
+		
+>>> info()
+enter the nameSUMODH C SABU
+enter the age
+18
+SUMODH C SABU
+18
+no  95
+>>> 

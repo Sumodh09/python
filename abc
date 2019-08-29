@@ -1,1 +1,10 @@
-
+def function():
+       list=[1,2,3]
+       list2=[]
+       for x in list:
+              a = 3+x
+              list2.append(a)
+              print(list2)
+              
+function()
+[4,5,6]

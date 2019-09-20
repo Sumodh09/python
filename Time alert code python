@@ -1,0 +1,18 @@
+# python
+>>> def geet():
+	name=input("enter the name")
+	import time
+	p=time.ctime()
+	b=p.split()
+	print(b[3])
+	if(b[3]>'12:00:00'):
+		print("GOOD EVENING")
+	else:
+		if(b[3]<'12:00:00'):
+			print("GOOD MORNING")
+
+			
+>>> geet()
+enter the namesumodh c sabu
+12:28:27
+GOOD EVENING

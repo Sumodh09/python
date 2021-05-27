@@ -1,0 +1,41 @@
+SET nterms TO int(INPUT("How many terms? "))
+
+
+
+# first two terms
+
+SET n1, n2 TO 0, 1
+
+SET count TO 0
+
+
+
+# check IF the number of terms is valid
+
+IF nterms <= 0:
+
+   OUTPUT("Please enter a positive integer")
+
+ELSEIF nterms EQUALS 1:
+
+   OUTPUT("Fibonacci sequence upto",nterms,":")
+
+   OUTPUT(n1)
+
+ELSE:
+
+   OUTPUT("Fibonacci sequence:")
+
+   WHILE count < nterms:
+
+       OUTPUT(n1)
+
+       SET nth TO n1 + n2
+
+       # update values
+
+       SET n1 TO n2
+
+       SET n2 TO nth
+
+       count += 1
